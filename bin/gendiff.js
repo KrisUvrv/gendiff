@@ -4,7 +4,7 @@
 import { program } from 'commander';
 // библиотека commander предоставляет удобный способ создания CLI-интерфейсов.
 // CLI - Command Line Interface
-import gendiff from '../src/index.js';
+import gendiff from '../src/index';
 
 program
   .name('gendiff')
