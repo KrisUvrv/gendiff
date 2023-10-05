@@ -1,9 +1,9 @@
 import { readFileSync } from 'node:fs';
 // модуль Node.js fs (файловая система) для синхронного чтения файла с указанным путем
 import path from 'path';
-import parsers from './parsers';
-import genDiff from './gendiff';
-import format from './formatters/index';
+import parsers from './parsers.js';
+import genDiff from './gendiff.js';
+import format from './formatters/index.js';
 
 const gendiff = (filepath1, filepath2, formatName = 'stylish') => {
   // объединяем текущий раб каталог (получ через process.cwd()) и отн путь, указ в filepath.
