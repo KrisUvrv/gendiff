@@ -1,10 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/KrisUvrv/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KrisUvrv/frontend-project-46/actions)
 
-<<<<<<< HEAD
-=======
 <a href="https://codeclimate.com/github/KrisUvrv/frontend-project-46/maintainability"><img src="https://api.codeclimate.com/v1/badges/88bc33bacf45e88fbdab/maintainability" /></a>
->>>>>>> 4038fc8ef50541cd9d40140716108974f976beeb
 <a href="https://codeclimate.com/github/KrisUvrv/frontend-project-46/test_coverage"><img src="https://api.codeclimate.com/v1/badges/88bc33bacf45e88fbdab/test_coverage" /></a>
 
 Описание:
