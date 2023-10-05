@@ -2,10 +2,9 @@
 // (шебанг) указывает на опер систему, что скрипт должен выполняться с использованием Node.js.
 
 import { program } from 'commander';
-import gendiff from "../src/index.js";
+import gendiff from '../src/index.js';
 // библиотека commander предоставляет удобный способ создания CLI-интерфейсов.
 // CLI - Command Line Interface
-
 
 program
   .name('gendiff')
