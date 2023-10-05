@@ -4,13 +4,13 @@
 import { program } from 'commander';
 // библиотека commander предоставляет удобный способ создания CLI-интерфейсов.
 // CLI - Command Line Interface
-import gendiff from '../src/index.js';
+import gendiff from '../src/index';
 
 program
   .name('gendiff')
   .description('Compares two configuration files and shows a difference.')
   .version('1.0.0')
-  .option('-f, --format <type>', 'output format')
+  .option('-f, --format <type>', 'output format', 'stylish')
   .arguments('<filepath1> <filepath2>')
   .action((filepath1, filepath2) => {
     console.log(gendiff(filepath1, filepath2, program.opts().format));
