@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import path from 'path';
 import parsers from './parsers';
 import genDiff from './gendiff';
-import format from './formatters/format';
+import format from './formatters/index.js';
 
 const gendiff = (filepath1, filepath2, formatName = 'stylish') => {
   // объединяем текущий раб каталог (получ через process.cwd()) и отн путь, указ в filepath.

@@ -133,7 +133,7 @@ BRF:1
 BRH:1
 end_of_record
 TN:
-SF:src/formatters/format.js
+SF:src/formatters/index.js
 FN:11,default
 FNF:1
 FNH:1

@@ -98,7 +98,7 @@
     </package>
     <package name="src.formatters">
       <metrics statements="183" coveredstatements="181" conditionals="36" coveredconditionals="34" methods="9" coveredmethods="9"/>
-      <file name="format.js" path="/Users/kris_uvrv/projects/frontend-project-46/src/formatters/format.js">
+      <file name="index.js" path="/Users/kris_uvrv/projects/frontend-project-46/src/formatters/index.js">
         <metrics statements="18" coveredstatements="18" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
