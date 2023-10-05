@@ -1,5 +1,4 @@
 import { readFileSync } from 'node:fs';
-// модуль Node.js fs (файловая система) для синхронного чтения файла с указанным путем
 import path from 'path';
 import parsers from './parsers.js';
 import genDiff from './gendiff.js';
