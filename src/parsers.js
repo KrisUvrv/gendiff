@@ -1,7 +1,5 @@
 import yaml from 'js-yaml';
 
-// функция для разбора (парсинга) данных в формате JSON или YAML
-
 const parsers = {
   json: JSON.parse,
   yaml: yaml.load,

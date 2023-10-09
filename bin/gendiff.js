@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-// (шебанг) указывает на опер систему, что скрипт должен выполняться с использованием Node.js.
 
 import { program } from 'commander';
 import gendiff from '../src/index.js';
